@@ -18,15 +18,19 @@
 
 </html>
 <?php
-$numbers = $_POST['numbers'];
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+    $numbers = $_POST['numbers'];
 
 
-for ($count = 0, $N = 2; $count < $numbers; $N++) {
-    if (isPrime($N)) {
-        echo $N . "</br>";
-        $count++;
+    for ($count = 0, $N = 2; $count < $numbers; $N++) {
+        if (isPrime($N)) {
+            echo $N . "</br>";
+            $count++;
+        }
     }
 }
+
 
 function isPrime($number)
 {
