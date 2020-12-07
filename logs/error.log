@@ -1,0 +1,20 @@
+[Fri Nov 20 09:57:49.980387 2020] [ssl:warn] [pid 1556:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 20 09:57:50.027242 2020] [ssl:warn] [pid 1556:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 20 09:57:50.074111 2020] [mpm_winnt:notice] [pid 1556:tid 576] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12 configured -- resuming normal operations
+[Fri Nov 20 09:57:50.074111 2020] [mpm_winnt:notice] [pid 1556:tid 576] AH00456: Apache Lounge VC15 Server built: Oct  3 2020 12:58:33
+[Fri Nov 20 09:57:50.074111 2020] [core:notice] [pid 1556:tid 576] AH00094: Command line: 'd:\\xampp_191120\\apache\\bin\\httpd.exe -d D:/xampp_191120/apache'
+[Fri Nov 20 09:57:50.074111 2020] [mpm_winnt:notice] [pid 1556:tid 576] AH00418: Parent: Created child process 6924
+[Fri Nov 20 09:57:50.542831 2020] [ssl:warn] [pid 6924:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 20 09:57:50.574097 2020] [ssl:warn] [pid 6924:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 20 09:57:50.605348 2020] [mpm_winnt:notice] [pid 6924:tid 644] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 07 11:33:59.211042 2020] [ssl:warn] [pid 2472:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 07 11:33:59.273534 2020] [core:warn] [pid 2472:tid 552] AH00098: pid file D:/xampp_191120/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 07 11:33:59.273534 2020] [ssl:warn] [pid 2472:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 07 11:33:59.304781 2020] [mpm_winnt:notice] [pid 2472:tid 552] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12 configured -- resuming normal operations
+[Mon Dec 07 11:33:59.304781 2020] [mpm_winnt:notice] [pid 2472:tid 552] AH00456: Apache Lounge VC15 Server built: Oct  3 2020 12:58:33
+[Mon Dec 07 11:33:59.304781 2020] [core:notice] [pid 2472:tid 552] AH00094: Command line: 'd:\\xampp_191120\\apache\\bin\\httpd.exe -d D:/xampp_191120/apache'
+[Mon Dec 07 11:33:59.320404 2020] [mpm_winnt:notice] [pid 2472:tid 552] AH00418: Parent: Created child process 7300
+[Mon Dec 07 11:33:59.617257 2020] [ssl:warn] [pid 7300:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 07 11:33:59.648533 2020] [ssl:warn] [pid 7300:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 07 11:33:59.679755 2020] [mpm_winnt:notice] [pid 7300:tid 632] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 07 11:56:16.987710 2020] [php7:error] [pid 7300:tid 1880] [client ::1:51671] PHP Parse error:  syntax error, unexpected '?>\r', expecting ')' in D:\\xampp_191120\\htdocs\\sever_time\\index.php on line 13, referer: http://localhost:8080/
